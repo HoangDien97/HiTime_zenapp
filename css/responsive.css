@@ -1,0 +1,128 @@
+@media (min-width: 414px) {
+    /* Header----------------- */
+    #rps-menu {
+        float: right;
+        margin-top: -60px;
+        margin-right: -160px;
+    }
+    form#search input {
+        width: 357px;
+        height: 40px;
+        border: none;
+        outline: none;
+        padding: 9px 42px 9px 15px;
+        color: rgb(58, 47, 47);
+        background: #fff;
+        margin: 4px 0 0 6px;
+        border-radius: 50rem;
+        border: 1px solid #00b592;
+    }
+    form#search button {
+        top: 4px;
+        left: 320px;
+        position: absolute;
+        background: none;
+        border: none;
+        padding: 9px 12px;
+        font-size: 18px;
+        outline: none;
+    }
+    /* Progress-------------- */
+    #product-slider .progress {
+        height: 8px;
+        /* max-width: 171px; */
+    }
+    /* News--------------------  */
+    .home-news_img img {
+        max-width: 364px;
+        max-height: 376px;
+        border-radius: 20px;
+    }
+    /* Footer------------- */
+    #footer .wp_about_us_f {
+        margin-bottom: 40px;
+    }
+    #footer .wp_information_f {
+        margin-bottom: 40px;
+    }
+    #footer .wp_support_f {
+        margin-bottom: 40px;
+    }
+    /* PRODUCT-DETAIL------------------- */
+    /* BREADCRUMB------- */
+    /* wp-content  ------------------- */
+    #detail_product img.img_item_1 {
+        width: 370px;
+        height: 370px;
+        z-index: 2;
+    }
+    #detail_product img.img_item_2 {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: -169px;
+        right: 46px;
+        z-index: -1;
+    }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1270px;
+    }
+    /* Header-------------------- */
+    form#search input {
+        width: 463px;
+        height: 40px;
+        border: none;
+        outline: none;
+        padding: 9px 42px 9px 15px;
+        color: rgb(58, 47, 47);
+        background: #fff;
+        margin: -8px 0 0 -24px;
+        border-radius: 50rem;
+        border: 1px solid #00b592;
+    }
+    form#search button {
+        position: absolute;
+        top: -9px;
+        left: 393px;
+        background: none;
+        border: none;
+        padding: 9px 12px;
+        font-size: 18px;
+        outline: none;
+    }
+    /* Progress-------------- */
+    #product-slider .progress {
+        height: 8px;
+        /* width: 204px; */
+    }
+    /* News--------------------  */
+    .home-news_img img {
+        max-width: 632px;
+        max-height: 376px;
+        border-radius: 20px;
+    }
+    /* wp-content  ------------------- */
+    #detail_product img.img_item_1 {
+        width: 450px;
+        height: 450px;
+        z-index: 2;
+    }
+    #detail_product img.img_item_2 {
+        width: 355px;
+        height: 355px;
+        position: absolute;
+        top: -169px;
+        right: 46px;
+        z-index: -1;
+    }
+    /* News------------------------- */
+}
